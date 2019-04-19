@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+    <input class="input_coding" placeholder-style="color:#00d8a0" placeholder-class="placeholderStyle"  bindinput="phone_num"
+     value='{{phone}}' confirm-type="search"placeholder='请输入手机号' style='box-shadow: 0 0 1px #00d8a0' type='text' maxlength='11'/>
+
+</view>
